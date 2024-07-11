@@ -1,0 +1,96 @@
+body{
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* form{ */
+
+    /* background-color: aqua;
+    /* height: 50%; */
+    /* width: 100%; */
+    /* display: flex; */
+    /* flex-direction: column; */ */
+    /* justify-content: center; */
+    /* align-items: center; */
+
+/* } */
+input{
+    width: 50px;
+    height: 20px;
+    margin: 10px;
+    font-size: larger;
+
+}
+label{
+    width: 50%;
+    font-size: larger;
+    /* font-size: ; */
+
+}
+.but{
+    width: 50px;
+    font-size: larger;
+}
+
+.form22{
+    width: 50%;
+    padding: 20px;
+    margin: 30px;
+    border: 10px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    margin: 20px;
+}
+#form1{
+    /* grid : 1fr ; */
+    border: 10px solid black;
+
+}
+.classform{
+    display: flex;
+    background-color: white;
+    margin: 10px;
+    /* padding: 60px; */
+    flex-wrap: wrap;
+    width: 50%;
+    border: solid black 10px;
+    /* flex-direction: column; */
+}
+.list{
+    display: flex;
+    /* margin: 20px; */
+    /* margin: 20px; */
+    /* width: 100%; */
+}
+.div1{
+    background-color:black;
+    display: flex;
+    border: 10px solid black;
+    margin: 20px;
+    width: 100%;
+
+}
+
+.box{
+    background-color: white;
+    margin: 30px;
+    width: 100%;
+}
+p{
+    margin-left: 200px;
+    margin-top: 20px;
+    font-size: large;
+}
+.but_css{
+    /* margin: 10px; */
+    border: 2px solid black;
+    /* display: flex; */
+
+}
+
+.ll{
+    background-color: aqua;
+}

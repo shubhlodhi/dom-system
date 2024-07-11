@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <textarea name="shubh" id="shubh1" class="text1"></textarea> -->
+     <input type="text" class="text1">
+
+    <button class="but1" id="ji">submit</button>
+
+    <div class="list" id="fff">
+        <h1>helo</h1>
+    </div>
+    
+    <script>
+        const text = document.querySelector(".text1")
+        const ff = document.getElementById("fff")
+        const butii = document.getElementById("ji")
+        butii.addEventListener("click" , dd)
+
+        function dd(){
+            const te = text.value
+            // console.log(text.value)
+            const boxw = document.createElement("div")
+            boxw.innerHTML = ` <div class="list22" id="fff">
+        
+    </div>`
+            const box = document.createElement("textarea")
+
+            box.innerHTML  = text.value
+            if( te == "")return
+            // 
+            boxw.appendChild(box)
+            ff.appendChild(boxw)
+
+            console.log(box.value)
+            // appendchild
+
+        }
+    </script>
+</body>
+</html>
